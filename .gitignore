@@ -1,0 +1,52 @@
+# Node modules
+node_modules/
+
+# Vite cache
+.vite/
+dist/
+out/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+.DS_Store
+*.local
+.env
+.env.*.local
+
+# Vercel deployment
+.vercel/
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS generated files by the Finder
+Icon?
+._*
+
+# Thumbnails
+Thumbs.db
+
+# Vite generated assets
+public/dist/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+
+# Vite and Vercel specific build and cache files
+.vite/
+.next/
+output/
+
+# Vite env files
+*.env.local
+*.env.development
+*.env.production
+*.env.test

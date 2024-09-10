@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Создание баннера</title>
+  </head>
+  <body class="dark:bg-black">
+    <div class="container mx-auto lg:w-2/3 2xl:w-2/5 p-4">
+      <!--Start Toggler Section-->
+      <section class="flex justify-end items-center gap-3">
+        <div
+          class="bg-gray-500 w-20 cursor-pointer rounded-3xl toggler-container dark:bg-gray-300"
+        >
+          <div
+            class="bg-white dark:text-white w-10 h-10 scale-75 rounded-3xl transition-transform dark:bg-black flex justify-center items-center"
+          >
+            <img class="dark:hidden" src="img/sun.svg" />
+            <img class="hidden dark:block" src="img/moon.svg" />
+          </div>
+        </div>
+      </section>
+      <!--End Toggler Section-->
+
+      <!--Start Task Section-->
+      <section class="section">
+        <div class="title">Требования к баннеру</div>
+        <div class="dark:text-gray-300 text-justify">
+          <p class="mb-2">
+            Нужно создать баннер для рекламы на маркетплейсе Ozon. На баннере
+            должны быть изображены шкаф, логотип и фон. Разрешение: 1080 x 400
+            пикселей (с охранными полями: 926 x 400 пикселей). Максимальный
+            размер файла: до 150 КБ.
+          </p>
+          <p class="mb-2">
+            Ниже представлены необходимые для баннера ресурсы — два логотипа:
+            для светлых и для тёмных фонов. Несколько вариантов шкафов на выбор.
+          </p>
+          <p>
+            Работу нужно выполнить в Figma и предоставить ссылку на исходники.
+          </p>
+        </div>
+      </section>
+      <!--End Task Section-->
+
+      <!--Start Source Section-->
+      <section class="section">
+        <div class="title">Ресурсы для создания баннера</div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4">
+          <div class="bg-white p-10 rounded-lg flex justify-center">
+            <img src="./img/mebelidomanet-logo-v5.svg" />
+          </div>
+          <div class="bg-gray-600 p-10 rounded-lg flex justify-center">
+            <img src="./img/mebelidomanet-logo-white-v5.svg" />
+          </div>
+        </div>
+        <div class="grid grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-4">
+          <div class="card">
+            <img src="./img/Charly_25.png" />
+          </div>
+          <div class="card">
+            <img src="./img/1.png" />
+          </div>
+          <div class="card">
+            <img src="./img/3.jpg" />
+          </div>
+          <div class="card">
+            <img src="./img/4.jpg" />
+          </div>
+          <div class="card">
+            <img src="./img/5.jpg" />
+          </div>
+          <div class="card">
+            <img src="./img/6.jpg" />
+          </div>
+        </div>
+
+        <!--Start Download Button-->
+        <div class="mt-4 flex justify-start">
+          <a
+            href="/mebelidomanet-archive.zip"
+            download="mebelidomanet-archive.zip"
+            class="btn"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-download"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"
+              />
+              <path
+                d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"
+              />
+            </svg>
+            Скачать архив
+          </a>
+        </div>
+        <!--End Download Button-->
+      </section>
+      <!--End Source Section-->
+
+      <!--Start Example Section-->
+      <section class="section">
+        <div class="title">Место размещения баннера</div>
+        <img src="./img/ozon-screenshot.png" class="rounded-lg" />
+      </section>
+      <!--End Example Section-->
+    </div>
+
+    <script src="./src/index.js" type="module"></script>
+  </body>
+</html>
